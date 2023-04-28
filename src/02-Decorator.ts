@@ -28,7 +28,7 @@ function log(target: any, key: string, descriptor: PropertyDescriptor) {
 }
 
 class MyClass {
-  @log
+  // @log
   myMethod(arg1: string, arg2: number) {
     return `Hello, ${arg1}! Your number is ${arg2}.`;
   }
